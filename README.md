@@ -1,70 +1,115 @@
-# Getting Started with Create React App
+🌿 Virtual White Flame – Company Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive company website built using React JS to showcase services, gallery, and company information for Virtual White Flame Pvt. Ltd.
+This project demonstrates clean UI design, client-side routing, reusable components, and practical React development practices.
 
-## Available Scripts
+🚀 Live Preview
 
-In the project directory, you can run:
+🔗 [https://your-live-link.vercel.app](https://virtual-white-flame-website.vercel.app/)
 
-### `npm start`
+🛠️ Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+React JS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+React Router DOM
 
-### `npm test`
+Bootstrap 5
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+HTML5
 
-### `npm run build`
+CSS3
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Font Awesome
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+JavaScript (ES6)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+✨ Features
 
-### `npm run eject`
+📄 Multi-page website with smooth navigation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🧭 Client-side routing using React Router
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🧱 Reusable components (Navbar, Footer, Pages)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🧩 Services section with dropdown navigation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🚧 “Under Development” pages for upcoming services
 
-## Learn More
+🖼️ Image gallery with modal preview
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+📥 External PDF brochure access
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+📱 Fully responsive design (mobile-friendly)
 
-### Code Splitting
+❌ Custom 404 – Page Not Found handling
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+🎨 Hover effects and clean UI styling
 
-### Analyzing the Bundle Size
+📂 Project Structure
+src/
+ ├── website/
+ │    ├── Navbar.jsx
+ │    ├── Footer.jsx
+ │    ├── Home.jsx
+ │    ├── About.jsx
+ │    ├── Services.jsx
+ │    ├── Gallery.jsx
+ │    ├── Images.jsx
+ │    ├── Videos.jsx
+ │    ├── UnderWorking.jsx
+ │    └── NotFound.jsx
+ ├── App.js
+ ├── index.js
+ └── index.css
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+⚙️ Installation & Setup
 
-### Making a Progressive Web App
+Clone the repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+git clone https://github.com/piyathorat/virtual-white-flame-website.git
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Navigate to project directory
 
-### Deployment
+cd virtual-white-flame-website
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+npm install
+
+
+Start the development server
+
+npm start
+
+🎯 Learning Outcomes
+
+Practical understanding of React component architecture
+
+Hands-on experience with React Router
+
+Conditional rendering based on routes
+
+UI development using Bootstrap
+
+Clean project structuring and Git usage
+
+📌 Future Enhancements
+
+Contact form with email integration
+
+Admin-managed dynamic content
+
+SEO optimization with meta tags
+
+Backend integration
+
+👨‍💻 Author
+
+Priya Thorat
+Aspiring Full-Stack Developer | React JS Enthusiast
+
+📄 License
+
+This project is created for learning and demonstration purposes.
