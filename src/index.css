@@ -1,0 +1,142 @@
+/* Remove dropdown arrow */
+.navbar .dropdown-toggle::after {
+  display: none !important;
+}
+
+/* Base link style */
+.nav-link {
+  position: relative;
+  color: black !important;
+  text-decoration: none;
+  padding-bottom: 4px;
+}
+.dropdown-item:hover{
+ color: orange;
+}
+/* Create invisible underline */
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 3px;
+  background-color: green;
+  border-radius: 2px;
+  transition: width 0.3s ease-in-out; /* smooth animation */
+}
+
+/* When hovered — show the underline */
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Optional — make text color green when hovered */
+.nav-link:hover {
+  color: green !important;
+}
+
+.btn{
+  margin-left: -205px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  font-size: large;
+  background-color: green;
+  color: white;
+}
+.btn:hover{
+  background-color: white;
+  color: green;
+}
+.aboutimg{
+ box-shadow: 5px 5px 5px 5px green;
+
+}
+.btn2{
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  background-color: green;
+  color: white;
+  padding: 3rem;
+  border: none;
+}
+.btn2:hover{
+  background-color: orange;
+ border: none;
+}
+.btn3{
+  height: 50px;
+  width: 110px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  background-color: green;
+  color: white;
+  padding: 1rem;
+  border: none;
+}
+.btn3:hover{
+  background-color: orange;
+ border: none;
+}
+.allcard {
+  border-left: 10px solid green;
+    transition: all 0.3s ease;
+}
+.allcard:hover{
+transform: scale(1.05);
+  box-shadow: 0 0 20px green;
+  border-right: 10px solid orange;
+}
+.biomass-line{
+  color: black;
+}
+.biomass-line:hover{
+  color: green;
+}
+.biogasimg{
+  border-top:25px solid green;
+  border-left:25px solid green;
+box-sizing: border-box;
+ transition: all 0.4s ease; 
+}
+.biogasimg:hover {
+    transform: translateX(-14px);
+}
+.machinecard {
+   bottom: "0";
+            left: "0";
+            opacity: "0.9";
+ border-bottom-left-radius: 10px;           
+ border-bottom-right-radius: 10px;
+
+}
+
+body {
+  font-family: "Poppins", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  color: #212529;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+.social-icons a {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+   text-decoration: none; 
+}
+
+.social-icons a:hover {
+  background-color: orange; /* Bootstrap green */
+  transform: translateY(-3px);
+}
